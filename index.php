@@ -231,5 +231,45 @@ fclose($myfile);
 <video src="simpson.mp4" autoplay width="255" height="255" />
 
 </div>		
-				
+
+	 <h2>POLLS</h2> 
+			
+            <div id="Sondazhi">           
+            <div class="poll">
+                <h4>For which of the foods listed in our website are you more interested in?</h4>
+                <form>
+                <input type="checkbox" name="q1" value="checked">Italian<br/>
+                <input type="checkbox" name="q1" value="checked" checked>Mexican<br/>
+                <input type="checkbox" name="q1" value="checked">Chinese<br/>
+                <input type="checkbox" name="q1" value="checked">American<br/>
+				<input type="checkbox" name="q1" value="checked">Albanian<br/>
+                <br/>
+                <button onclick="window.alert('Your vote has been sent')">Vote</button>
+                </form>
+            </div>
+            <div class="poll">
+                <h4>Which from the listed food is your favorite one?</h4>
+                <form>
+                <input type="radio" name="q2" value="1">Pizza<br/>
+                <input type="radio" name="q2" value="2" checked>Rice<br/>
+                <input type="radio" name="q2" value="3">Pasta<br/>
+                <input type="radio" name="q2" value="4">Burger<br/>
+				<input type="radio" name="q2" value="5">Flija<br/>
+                <br/>
+                <button onclick="window.alert('Your vote has been sent')">Vote</button>
+                </form>
+            </div>      
+            <div class="poll">
+                <h4>Which of the foods listed above is your least favourite?</h4>
+                <form>
+               <input type="radio" name="q3" value="1">Pizza<br/>
+                <input type="radio" name="3" value="2" checked>Rice<br/>
+                <input type="radio" name="q3" value="3">Pasta<br/>
+                <input type="radio" name="q3" value="4">Burger<br/>
+				<input type="radio" name="q3" value="5">Flija<br/>
+                <br/>
+                <button onclick="window.alert('Your vote has been sent')">Vote</button>
+                </form>
+            </div>           
+            </div>
 			</body>

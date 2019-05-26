@@ -93,4 +93,10 @@ catch(Exception $e) {
   echo 'According to the historians ' .$e->getMessage();
 }
 ?>		
-			  
+	           </p>    
+					</div>
+					
+
+</article>					
+</body>
+</html>		  

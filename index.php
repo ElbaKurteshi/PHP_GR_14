@@ -171,6 +171,33 @@ session_destroy();
 				humans come into contact with.</p>      
             </div>
 		</article>	
-			
+			 <div id="other">
+                <section>
+				
+                <h2>Other interesting foods of different countries</h2>
+<!--Perdorimi i preg_split-->				
+<?php
+    $sentence="<h3>Click on the photo to watch a documentary about those foods </h3> ";
+    $result=preg_split ('/  /',$sentence);
+    foreach ($result as $content)
+    {echo $content."<br>" ;
+        
+    }
+?>                </section>
+                <table cellpadding="5">
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=F5-nfxQjfZU" target="_blank"><img src="images\padthai.jpg" width=140 height=200  ></a></td>
+                        <td><a href="https://www.youtube.com/watch?v=Q1-GiGhDf28" target="_blank"><img src="images\curry.jpg" width=140 height=200  ></a></td> 
+                        <td><a href="https://www.youtube.com/watch?v=IUX0FH8mERQ" target="_blank"><img src="images\spicy.jpg" width=140 height=200 ></a></td>
+                        <td><a href="https://www.youtube.com/watch?v=dHEuOPjdjJg" target="_blank"><img src="images\noodels.jpg" width=140 height=200 ></a></td> 
+                    </tr>
+                    <tr>
+                        <th><font size="5" color="white">Pad Thai | </font></th>
+                        <th><font size="5" color="white">Penang Curry | </font></th>
+                        <th><font size="5" color="white">Spicy Curry |</font></th>
+                        <th><font size="5" color="white">Noodles</font></th>
+                    </tr>
+                </table>
+
 					
 			</body>

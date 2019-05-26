@@ -27,8 +27,8 @@ session_start();
 	font:bold;
 	margin-top: 23em;
 	float:left;
-    width: 280px;
-    background-color:rgba(224, 224, 209, 0.7);
+       width: 280px;
+       background-color:rgba(224, 224, 209, 0.7);
     }
 
 

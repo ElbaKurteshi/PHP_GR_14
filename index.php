@@ -87,7 +87,7 @@ function myTest() {
 } 
 myTest();
 ?> 
-            </section> 
+           </section> 
 	
     	
             <div class="text">

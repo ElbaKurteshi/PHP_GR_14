@@ -19,7 +19,7 @@ session_start();
 	float:left;
        width: 280px;
        background-color:rgba(224, 224, 209, 0.7);
-    border: 3px solid #f5f5f0;
+       border: 3px solid #f5f5f0;
 	border-radius: 8px;	
 			}
 .twitter{
@@ -52,7 +52,7 @@ session_start();
 		</style>
 			
 			
-			</head>
+        </head>
 	<body>
 			 <header>
             <a href="index.php"></a>
@@ -63,10 +63,10 @@ session_start();
                     <li><a href="ItalianFood.php">Italian Food</a></li>
                     <li><a href="mexican.php">Mexican Food</a></li>
                     <li><a href="chinese.php">Chinese Food</a></li>
-					<li><a href="american.php">American Food</a></li>
-				    <li><a href="AlbanianFood.php">Albanian Food</a></li>
-					<li><a href="contacts.php">Contacts</a></li>
-					<li><a href="login.php">Log In</a></li>
+	            <li><a href="american.php">American Food</a></li>
+	            <li><a href="AlbanianFood.php">Albanian Food</a></li>
+		    <li><a href="contacts.php">Contacts</a></li>
+		    <li><a href="login.php">Log In</a></li>
                 </ul>
 				</div>
            </nav>

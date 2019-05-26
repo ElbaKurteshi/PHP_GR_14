@@ -199,5 +199,37 @@ session_destroy();
                     </tr>
                 </table>
 
-					
+			 <!--Perdorimi i funksionit per lexim nga fajllat-->
+<?php
+$myfile = fopen("FoodThing.txt", "r") or die("Unable to open file!");
+echo fread($myfile,filesize("FoodThing.txt"));
+fclose($myfile);
+?>
+
+
+
+
+            </div>
+        
+<aside>
+		
+<!--Ora-->
+		<div class="all">
+       
+        <?php
+        echo "*Today is " . date("Y/m/d") . "<br>";
+        echo "*Today is " . date("l");
+        ?>
+		</div>
+		
+
+
+
+
+
+<div id="pics">
+<video src="simpson.mp4" autoplay width="255" height="255" />
+
+</div>		
+				
 			</body>

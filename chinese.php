@@ -133,7 +133,39 @@ for($x = 0; $x < $clength; $x++) {
 }
 ?>
 </div> 
+!--Numeric (Indexed) Arrays--> 
+<span class ="numeric1">
+<?php
+$variabla="To try";
+$birds = array("<br>- JIANBING (CHINESE CREPES)", "<br>- CHINESE TEA EGG", "<br>- CHINESE SESAME BALLS", "<br>- STINKY TOFU", "<br>- COLD RICE NOODLES-LIANGPI"); 
+echo "<h4>&bullet; 5 Delicious Chinese Street Food  $variabla</h4>" . $birds[0] . ", " . $birds[1] . ", " .$birds[2] . ", " .$birds[3] . ", " . $birds[4] . ".";
+?>
+</span> 
 
+
+ 
+<div class="numeric">
+<?php    
+$i = 5; 
+DO { 
+  print "<h4>&bullet; " . $i . " 5 Disgusting Chinese Foods </h4><br>"; 
+  $i--; 
+} WHILE ($i > 8);
+
+         $numbers[0] = "- 蚕蛹(cányǒng) Silkworm Pupa";
+         $numbers[1] = "- 肥肠(féicháng) Pig’s Intestines";
+         $numbers[2] = "- 凤爪(fèngzhuǎ) Chicken Feet";
+         $numbers[3] = "- Snake Gallbladder";
+         $numbers[4] = "- Rabbit Head";
+         
+         foreach( $numbers as $value ) {
+            echo "$value<br />";
+         }
+?>
+</div>
+</aside>			
+</body>
+</html>
 	
    
     

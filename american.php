@@ -26,3 +26,12 @@
 </head>
 
 <body>
+<div>
+			        <h4>Facts about american eating habits!</h4>
+                    <p> Let's see an array about american foods.<br>
+					<?php
+$str = "American foods are delicious";
+print_r (explode(" ",$str));
+?> <br>
+Now let's take that array and form it in a full sentence.<br>
+ <?php

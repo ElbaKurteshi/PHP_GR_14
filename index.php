@@ -348,7 +348,7 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
                 <li><a href="https://www.twitter.com/" target="_blank"><img src="images\Twitter.png" alt="Twitter"></a></li>
                 <li><a href="https://plus.google.com/" target="_blank"><img src="images\Google+.png" alt="Google Plus"></a></li>
                 <li><a href="https://www.yahoo.com/" target="_blank"><img src="images\Yahoo.png" alt="Yahoo"></a></li>
-				<li><a href="https://www.pinterest.com/" target="_blank"><img src="images\Pinterest.png" alt="Pinterest"></a></li>    				
+				    				
             </ul>
             </section>
         </div>

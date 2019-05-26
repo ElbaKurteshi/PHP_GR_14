@@ -13,3 +13,16 @@
     background-repeat: no-repeat;
      background-position:100%;
     }
+	div {
+  background-color: lightgrey;
+  width: 560px;
+  border: 15px solid beige;
+  padding: 50px;
+  margin: 20px;
+}
+	
+	
+	</style>
+</head>
+
+<body>

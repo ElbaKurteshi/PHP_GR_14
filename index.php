@@ -272,4 +272,38 @@ fclose($myfile);
                 </form>
             </div>           
             </div>
+	
+	<br><br>
+<!--Switch dhe Multidimensional Arrays-->
+<div class="ushqimet">
+    <?php
+$ushqime = array
+  (
+  array("<b>Pizza:</b>",2,3),
+  array("<b>Pasta:</b>",3,7),
+  array("<b>Burgers:</b>",2,4),
+  array("<b>Flija:</b>",1,2)
+  );
+  
+echo $ushqime[0][0]."<br>Ready to be served: ".$ushqime[0][1].", cooking: ".$ushqime[0][2].".<br>";
+echo $ushqime[1][0]."<br>Ready to be served: ".$ushqime[1][1].", cooking: ".$ushqime[1][2].".<br>";
+echo $ushqime[2][0]."<br>Ready to be served: ".$ushqime[2][1].", cooking: ".$ushqime[2][2].".<br>";
+echo $ushqime[3][0]."<br>Ready to be served: ".$ushqime[3][1].", cooking: ".$ushqime[3][2].".<br>";
+?>
+<br>
+
+<?php
+$order = 10000;
+while ($order <= 1000)
+  {
+ echo "The number of  orders on this page is already " . $order . ". You can order now!. <br>";
+ $order = $order + 1;
+  }
+
+echo "<h6>The number of  orders on this page is already " . $order . ". You can order more NOW!</h6>";
+?>
+
+<br>
+</div>
+				
 			</body>

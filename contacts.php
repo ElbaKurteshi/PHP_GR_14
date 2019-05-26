@@ -76,6 +76,8 @@ multipleparameters("E-mails", "us");
     <td><address> <a href="mailto:valmira.lokaj@studentet.uni-pr.edu"> valmira.lokaj@studentet.uni-pr.edu</a></address> </td>
   </tr>
   
-  
-</table>		
+</table>	
+		
+	<hr>
 
+		

@@ -41,3 +41,22 @@
                    <img src="images\pite.jpg" width=400 height=200> 
                   <p>
                    Savoury dinner pies are a favourite in Albania.  And they are just as hearty as their stews and just as flavourful.  Try byrek, made with feta cheese cabbage, spinach, tomatoes, and meat all layered in a tasty filo pastry. Kungullur is filo pastry and pumpkin, butter, salt, or sugar.  And finally Kakllaasarem – a traditional food from Kosovo, it’s a layered pita without anything inside and covered with garlic and yogurt, served warm. It’s a typical lunch for the Albanians.
+<?php
+    $years_number = 55 ;
+    
+    try{
+        
+        if( !is_numeric($years_number) ){
+           throw new InvalidArgumentException('The variable must be a number!'); 
+        }
+        
+        if( ($years_number < 1) || ($years_number > 100) ){
+           throw new OutOfRangeException('The variable must be a valid day of month: can e from 1 to 100.'); 
+        }
+        
+        echo 'Byrek has been around for '. $years_number;
+        
+    }catch( Exception $e ){
+        die( $e->getMessage() );
+    }
+?>

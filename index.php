@@ -78,6 +78,40 @@ session_start();
             
             <hr>
 				
-			
+			<!--Konstante ne PHP-->
+<?php
+define("WELCOME", "<h2>Different Countries Foods</h2>");
+
+function myTest() {
+    echo WELCOME;
+} 
+myTest();
+?> 
+            </section> 
+	
+    	
+            <div class="text">
+			        <h3>Italian Food</h3>
+                    <?php
+// Set session variables
+$_SESSION["pizza"] = "Vegetarian";
+$_SESSION["pasta"] = "bolognese";
+?>
+                    <img src="images\italian.jpg" width=400 height=200  
+                    <span>
+                    <p>Italian cuisine is generally characterized by its simplicity, with many dishes having only two to four main ingredients. Italian cooks rely chiefly on the quality of the ingredients rather than on elaborate preparation. Ingredients and dishes vary by region. Many dishes that were once regional have proliferated with variations throughout the country.
+<?php
+// Echo session variables that were set before
+echo $_SESSION["pizza"];
+?> is the best Pizza.And for pasta is :
+<?php
+// Echo session variables that were set before
+echo $_SESSION["pasta"].".</br></br>";
+?>
+<!-- leximi i vlerave te ruajtura ne session-->
+<?php
+print_r($_SESSION);
+?>
+
 			
 			</body>

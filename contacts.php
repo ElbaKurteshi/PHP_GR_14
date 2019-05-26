@@ -16,4 +16,8 @@ $(document).ready(function(){
 });
 });
 </script>
+	
+	</head>
+<link rel="stylesheet" href="contacts.css">
+
 

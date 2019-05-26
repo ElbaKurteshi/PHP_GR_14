@@ -71,5 +71,26 @@
                     <p> The national dish is baked lamb, rice, and yoghurt sauce called tavë kosi.  Everybody’s mother makes it best! Other specialities include pace, which is made by boiling an animal head (usually pig, cow, or sheep) until the meat comes off.  It’s then made into a stew with onion, garlic, and other spices. You might also try harapash, a polenta based dish cooked with lamb intestines, butter, cheese, and corn flour.Dinner appetizers or platters are usually served with salami, prosciutto, feta cheese, green olives, and roasted red peppers. To follow, try koran, a species of trout unique to Albania, jufka, handmade pasta, qofte ferguara, fried lamb or beef meatballs served with feta cheese and bread, or flifa, a humongous pancake, more like a pie, made by layering crepe and served with melted cream cheese.
 
 	
-					
+			<!--Exception-->
+<?php
+//create function with an exception
+function checkNum($number) {
+  if($number>50) {
+    throw new Exception(" Tavë Kosi has been known for 90 years in Albanian cuisine.");
+  }
+  return true;
+}
+
+//trigger exception in a "try" block
+try {
+  checkNum(90);
+  //If the exception is thrown, this text will not be shown
+  echo 'If you see this, the number is 50 or below.';
+}
+
+//catch exception
+catch(Exception $e) {
+  echo 'According to the historians ' .$e->getMessage();
+}
+?>		
 			  

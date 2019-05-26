@@ -101,5 +101,12 @@ echo "We are " .$members['FIEK'] . " students of computer engineering and we wor
 	<mark> Thank You </mark>
 <br/>
 <button id="hide">Hide</button>
+			
+	<button id="show">Show</button>
+</div>
+</nav>
+</body>
+</html>		
+			
 		
 			

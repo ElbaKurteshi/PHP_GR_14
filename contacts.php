@@ -71,4 +71,11 @@ multipleparameters("E-mails", "us");
     <td> Fitore Halimi</td>
 	<td><address> <a href="mailto: fitorehalimi2@gmail.com">fitorehalimi2@gmail.com </a></address> </td> 
   </tr>
+	<tr>
+    <td>Valmira Lokaj </td>
+    <td><address> <a href="mailto:valmira.lokaj@studentet.uni-pr.edu"> valmira.lokaj@studentet.uni-pr.edu</a></address> </td>
+  </tr>
+  
+  
+</table>		
 

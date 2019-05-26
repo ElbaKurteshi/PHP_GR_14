@@ -29,7 +29,7 @@ session_start();
 	float:left;
        width: 280px;
        background-color:rgba(224, 224, 209, 0.7);
-    }
+      }
 
 
 .all{

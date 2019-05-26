@@ -155,7 +155,7 @@ session_destroy();
                 <img src="images\american.png" width=400 height=200>
                
                 <p>American cuisine reflects the history of the United States, blending the culinary contributions of various groups of people from around the world, including indigenous American Indians, African Americans, Asians, Europeans, Pacific Islanders, and South Americans.When the colonists came to the colonies, they farmed animals for clothing and meat in a similar fashion to what they had done in Europe.
-             </p>
+              </p>
                 
             </div>
             

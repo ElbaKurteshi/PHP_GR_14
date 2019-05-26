@@ -87,5 +87,7 @@ multipleparameters("E-mails", "us");
 </figcaption>
 <figure>
 
-		
+		<div class="info">
+<hr>
+<h3 id="aboutus">About Us</h3>
 

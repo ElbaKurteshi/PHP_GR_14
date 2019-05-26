@@ -98,3 +98,8 @@ $members = array("FIEK"=>"4", "FIM"=>"7", "FNA"=>"10");
 echo "We are " .$members['FIEK'] . " students of computer engineering and we worked together on building this website. All the food lovers are welcomed in our website . We worked a lot in this project , and we tried our best' .";
 ?>
 </p>
+	<mark> Thank You </mark>
+<br/>
+<button id="hide">Hide</button>
+		
+			

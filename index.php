@@ -113,5 +113,23 @@ echo $_SESSION["pasta"].".</br></br>";
 print_r($_SESSION);
 ?>
 
-			
+<!--ndryshimi dhe leximi i vlerave te ruajtura ne session-->
+<?php 
+$_SESSION["pasta"] = "bolognese";
+echo "</br>";
+print_r($_SESSION);
+?>
+
+<!--Fshirja e sessions-->
+<?php
+// remove all session variables
+session_unset(); 
+
+// destroy the session 
+session_destroy();
+?>
+
+                    </p>    
+            </div>
+					
 			</body>

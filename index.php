@@ -338,6 +338,42 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
                     </li>
                 </ul>
                 </div>
-				
+		
+<!--Follow Us-->			
+        <div id="followus">
+            <section>
+            <h3><em>Follow us:</em></h3>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="images\Facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://www.twitter.com/" target="_blank"><img src="images\Twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://plus.google.com/" target="_blank"><img src="images\Google+.png" alt="Google Plus"></a></li>
+                <li><a href="https://www.yahoo.com/" target="_blank"><img src="images\Yahoo.png" alt="Yahoo"></a></li>
+				<li><a href="https://www.pinterest.com/" target="_blank"><img src="images\Pinterest.png" alt="Pinterest"></a></li>    				
+            </ul>
+            </section>
+        </div>
+
+<!--Web API me twitter-->
+<div class="twitter">
+<div class="twitterapi">
+<?php
+$variable = "seeing";
+
+switch ($variable) {
+    case "seeing":
+        echo "<i>● • Click <a href='twitter.php' target='_blank'>here</a> to see our posts on twitter! • ● </i>";
+        break;
+    case "notseeing":
+        echo "Don't click the link to see our posts on twitter!";
+        break;
+    default:
+        echo "This is our magazine on twitter!";
+}
+?>
+</div>
+</div>
+
 				
 			</body>
+
+</html>

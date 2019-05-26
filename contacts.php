@@ -38,6 +38,10 @@ $(document).ready(function(){
 </nav>
 </header>
 		
+		<b><p>If you want to read more click here: <a href="#aboutus">About Us</a></p></b>
+
+
+		
 	<hr>
 <script type="text/javascript">
 

@@ -150,5 +150,27 @@ session_destroy();
                </p>      
             </div>
             
+	<div class="text">
+			    <h3>American Food</h3>
+                <img src="images\american.png" width=400 height=200>
+               
+                <p>American cuisine reflects the history of the United States, blending the culinary contributions of various groups of people from around the world, including indigenous American Indians, African Americans, Asians, Europeans, Pacific Islanders, and South Americans.When the colonists came to the colonies, they farmed animals for clothing and meat in a similar fashion to what they had done in Europe.
+             </p>
+                
+            </div>
+            
+            <div class="text">
+			    <h3>Albanian Food</h3>
+                <img src="images\albanian.jpg" width=400 height=200>
+                
+                <p>
+                The cockroach, also known as the roach, is found worldwide in every environment and every habitat with the 
+				exception of water. The cockroach is one of the most commonly known pests to humans of the insects world but
+				plays a vital role in the ecosystem ingesting decomposing materials.There are thought to be around 4,000 known
+				species of cockroach in existence but only about 30 of the different species of cockroach are the ones that 
+				humans come into contact with.</p>      
+            </div>
+		</article>	
+			
 					
 			</body>

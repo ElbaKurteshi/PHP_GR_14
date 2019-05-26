@@ -68,7 +68,7 @@ session_start();
 		    <li><a href="contacts.php">Contacts</a></li>
 		    <li><a href="login.php">Log In</a></li>
                 </ul>
-				</div>
+	     </div>
            </nav>
         </header>
 

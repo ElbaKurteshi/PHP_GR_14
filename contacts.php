@@ -52,5 +52,14 @@ function multipleparameters (first, second) {
 multipleparameters("E-mails", "us");
 
 </script>
+		<table style="width:50%; height: 10%">
+
+  <tr>
+    <th> Name of admins </th>
+    <th> E-mail </th>
+  </tr>
+
+ 
+
 
 

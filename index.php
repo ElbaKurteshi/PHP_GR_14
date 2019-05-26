@@ -32,7 +32,7 @@ session_start();
     }
 
 
-.all {
+.all{
   width: 251px;
   height:75px;
   font-size: 1em;

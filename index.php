@@ -305,5 +305,39 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
 
 <br>
 </div>
+	<!--Listat-->				
+			<div id="listat">
+
+                <ul>
+                    <h4><li>5 World Famous Foods</h4></li>
+                    <ol>
+                        <li>Pizza</li>
+                        <li>Burger</li>
+                        <li>Rice</li>
+                        <li>Tacos</li>
+                        <li>Pasta</li>
+                    </ol>
+                    </li>
+                    <h4><li>5 Foods To Avoid</li></h4>
+                        <ol>
+                            <li>French Fries</li>
+                            <li>White Bread</li>
+                            <li>Oily Foods</li>
+                            <li>Eggs</li>
+                            <li>Meat</li>
+                        </ol>
+                    </li>
+                    <h4><li>5 Foods Induce Memory Loss</li></h4>
+                        <ol>
+                            <li>Pasta</li>
+                            <li>Cakes</li>
+                            <li>White Sugar</li>
+                            <li>White Rice</li>
+                            <li>Cakes</li>
+                        </ol>
+                    </li>
+                </ul>
+                </div>
+				
 				
 			</body>

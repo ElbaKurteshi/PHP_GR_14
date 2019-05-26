@@ -53,7 +53,31 @@ session_start();
 			
 			
 			</head>
-			
+	<body>
+			 <header>
+            <a href="index.php"></a>
+           <nav> 
+		   <div id="nav">
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="ItalianFood.php">Italian Food</a></li>
+                    <li><a href="mexican.php">Mexican Food</a></li>
+                    <li><a href="chinese.php">Chinese Food</a></li>
+					<li><a href="american.php">American Food</a></li>
+				    <li><a href="AlbanianFood.php">Albanian Food</a></li>
+					<li><a href="contacts.php">Contacts</a></li>
+					<li><a href="login.php">Log In</a></li>
+                </ul>
+				</div>
+           </nav>
+        </header>
+
+	
+ <article>	
+            <section>
+            
+            <hr>
+				
 			
 			
 			</body>

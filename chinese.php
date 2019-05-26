@@ -106,6 +106,34 @@ In the bakeries of Chinatown, San Francisco, it is commonly referred to as "spon
                     portion per hour. 
                     </p>    
                     </div>
-					
+				<div class="chinese">
+			        <h3>Rise</h3>
+                    <img src="images\rise.jpg" width=400 height=200> 
+                    <p> Rice, a monocot, is normally grown as an annual plant, although in tropical areas it can survive as a perennial and can produce a ratoon crop for up to 30 years. Rice cultivation is well-suited to countries and regions with low labor costs and high rainfall, as it is labor-intensive to cultivate and requires ample water. However, rice can be grown practically anywhere, even on a steep hill or mountain area with the use of water-controlling terrace systems. Although its parent species are native to Asia and certain parts of Africa, centuries of trade and exportation have made it commonplace in many cultures worldwide.
+
+                    </p>  
+                    </div>
+</article>
+
+
+<aside>
+<!--Sort-->
+				
+<div class="sorting">
+<?php
+
+echo "<h4>&bullet; Top 5 Chinese Dishes You Cannot Miss</h4><br>";
+$coolest = array("– Peking Duck 北京烤鸭", "– Hot Pot 火锅", "– Hong Shao Rou 红烧肉", "– Dumplings 饺子","– Biang Biang Mian 油泼扯面");
+rsort($coolest); //nese kodojme vetem sort atehere behet sortimi sipas radhes alfabetike
+
+$clength = count($coolest);
+for($x = 0; $x < $clength; $x++) {
+    echo $coolest[$x];
+    echo "<br>";
+}
+?>
+</div> 
+
+	
    
     

@@ -37,5 +37,16 @@ $(document).ready(function(){
 			</div>
 </nav>
 </header>
+		
+	<hr>
+<script type="text/javascript">
+
+function multipleparameters (first, second) {
+   document.write("Here are our "+ first + " if you want to contact " + second + ".");
+}
+
+multipleparameters("E-mails", "us");
+
+</script>
 
 

@@ -131,5 +131,24 @@ session_destroy();
 
                     </p>    
             </div>
+	 
+	 <div class="text">
+			    <h3>Mexican Food</h3>
+                <img src="images\mexican.jpg" width=400 height=200
+               
+                <p>
+                Mexican cuisine is an important aspect of the culture, social structure and popular traditions of Mexico. The most important example of this connection is the use of mole for special occasions and holidays, particularly in the South and Central regions of the country. Traditional Mexican cuisine was inscribed in 2010.</p> 	
+            </div>
+  
+		
+            <div class="text">
+			    <h3>Chinese Food</h3>
+                <img src="images\chinese.jpg" width=400 height=200
+                
+                <p>
+               Chinese cuisine is an important part of Chinese culture, which includes cuisine originating from the diverse regions of China, as well as from Chinese people in other parts of the world. Chinese food staples such as rice, soy sauce, noodles, tea, and tofu, and utensils such as chopsticks and the wok, can now be found worldwide.
+               </p>      
+            </div>
+            
 					
 			</body>

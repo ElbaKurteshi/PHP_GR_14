@@ -6,7 +6,7 @@ session_start();
 
 <html manifest="manifest.appcache">
     <head>
-        <title>Foods Blog</title>
+       <title>Foods Blog</title>
         <meta charset="utf-8">
 		
 		<link rel="stylesheet" href="stili.css">

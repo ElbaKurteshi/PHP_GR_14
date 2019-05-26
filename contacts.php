@@ -59,7 +59,10 @@ multipleparameters("E-mails", "us");
     <th> E-mail </th>
   </tr>
 
- 
+ <tr>
+    <td> Blinera Bytyqi </td>
+    <td><address> <a href="mailto:blinerab@live.com">blinerab@live.com </a></address> </td>
+  </tr>
 
 
 

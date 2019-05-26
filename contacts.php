@@ -79,5 +79,13 @@ multipleparameters("E-mails", "us");
 </table>	
 		
 	<hr>
+		<figure>
+<div class="map">
+<img src="images\map.png" title="map" alt="map photo" width=300 height=300>
+<figcaption>
+<pre><strong> Note:</strong>This is our location.</pre>
+</figcaption>
+<figure>
 
 		
+

@@ -6,7 +6,7 @@ session_start();
 
 <html manifest="manifest.appcache">
     <head>
-        <title>Foods Blog</title>
+       <title>Foods Blog</title>
         <meta charset="utf-8">
 		
 		<link rel="stylesheet" href="stili.css">
@@ -17,8 +17,8 @@ session_start();
 	margin-top: 71em;
         margin-left: -12px;
 	float:left;
-       width: 280px;
-       background-color:rgba(224, 224, 209, 0.7);
+        width: 280px;
+        background-color:rgba(224, 224, 209, 0.7);
        border: 3px solid #f5f5f0;
 	border-radius: 8px;	
 			}
@@ -29,7 +29,7 @@ session_start();
 	float:left;
        width: 280px;
        background-color:rgba(224, 224, 209, 0.7);
-    }
+      }
 
 
 .all{
@@ -68,7 +68,7 @@ session_start();
 		    <li><a href="contacts.php">Contacts</a></li>
 		    <li><a href="login.php">Log In</a></li>
                 </ul>
-				</div>
+	     </div>
            </nav>
         </header>
 
@@ -87,7 +87,7 @@ function myTest() {
 } 
 myTest();
 ?> 
-            </section> 
+           </section> 
 	
     	
             <div class="text">
@@ -348,7 +348,7 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
                 <li><a href="https://www.twitter.com/" target="_blank"><img src="images\Twitter.png" alt="Twitter"></a></li>
                 <li><a href="https://plus.google.com/" target="_blank"><img src="images\Google+.png" alt="Google Plus"></a></li>
                 <li><a href="https://www.yahoo.com/" target="_blank"><img src="images\Yahoo.png" alt="Yahoo"></a></li>
-				<li><a href="https://www.pinterest.com/" target="_blank"><img src="images\Pinterest.png" alt="Pinterest"></a></li>    				
+				    				
             </ul>
             </section>
         </div>

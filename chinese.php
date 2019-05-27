@@ -139,9 +139,9 @@ for($x = 0; $x < $clength; $x++) {
 <?php
 $variabla="To try";
 $foods = array("<br>- JIANBING (CHINESE CREPES)", "<br>- CHINESE TEA EGG", "<br>- CHINESE SESAME BALLS", "<br>- STINKY TOFU", "<br>- COLD RICE NOODLES-LIANGPI"); 
-echo "<h4>&bullet; 5 Delicious Chinese Street Food  $variabla</h4>" . $birds[0] . ", " . $birds[1] . ", " .$birds[2] . ", " .$birds[3] . ", " . $birds[4] . ".";
+echo "<h4>&bullet; 5 Delicious Chinese Street Food  $variabla</h4>" . $foods[0] . ", " . $foods[1] . ", " .$foods[2] . ", " .$foods[3] . ", " . $foods[4] . ".";
 ?>
-</span> 
+</span>  
 
 
  

@@ -104,7 +104,7 @@ In the bakeries of Chinatown, San Francisco, it is commonly referred to as "spon
     echo
         round($number) . "<br/>"; 
     ?> 
-                    portion per hour. 
+                    portion for hour. 
                     </p>    
                     </div>
 				<div class="chinese">

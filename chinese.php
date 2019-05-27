@@ -18,15 +18,16 @@
     border-radius: 10px;  
     }
 
-    .numeric1 {
+   .numeric1 {
     font-size:1em;
     font:bold;
-    margin-top:5em;
+    margin-top:-7em;
     float:left;
     width: 230px;
     background-color:rgba(255, 194, 102, 0.7);
     border-radius: 10px;    
     }
+	
  .numeric {
     font-size:1em;
     font:bold;

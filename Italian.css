@@ -13,6 +13,15 @@ header { background-color:#bfb7b7;
   height:130px;
 	    
  }	
+* {
+   padding: 0;
+   
+margin: 0;	
+
+
+  }
+
+}
 
 
 	

@@ -58,4 +58,8 @@ if(!isset($_COOKIE[$cookie_name])) {
 // set the expiration date to one hour ago
 setcookie("Pizza", "", time() - 3600);
 ?>
+                <img src="images\pizza.jpg" width=400 height=200> 
+                    <p><cite>Pizza</cite>  is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients (anchovies, olives, meat, etc.) baked at a high temperature, traditionally in a wood-fired oven. In formal settings, like a restaurant, pizza is eaten with knife and fork, but in casual settings it is cut into wedges to be eaten while held in the hand. Small pizzas are sometimes called pizzettas.
+                    The term pizza was first recorded in the 10th century in a Latin manuscript from the Southern Italian town of Gaeta in Lazio, on the border with Campania.Modern pizza was invented in Naples, and the dish and its variants have since become popular in many countries. It has become one of the most popular foods in the world and a common fast food item in Europe and North America, available at pizzerias (restaurants specializing in pizza), restaurants offering Mediterranean cuisine, and via pizza delivery.
+<!--Here we check if the cookie named italian is deleted-->
 

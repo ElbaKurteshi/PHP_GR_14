@@ -27,3 +27,5 @@
 
 	<article>
 <div class="Insects">
+<h3>Chilaquiles</h3>
+<img src="images\chilaquiles.jpg" width=400 height=200> 

@@ -41,4 +41,21 @@ $(document).ready(function(){
 </nav>
 </header>
 <hr>
+        <article>
+            <div class="Italian">
+       
+<!--Here we check if we have a cookie named italian-->
+<?php
+if(!isset($_COOKIE[$cookie_name])) {
+     echo "<h3>"."This '".$cookie_name . "' is not defined!"."</h3>";
+} else {
+     echo "<h3>".$_COOKIE[$cookie_name]."</h3>";
+}
+?>
+
+<!--Delete the cookie italian-->
+<?php
+// set the expiration date to one hour ago
+setcookie("Pizza", "", time() - 3600);
+?>
 

@@ -251,5 +251,35 @@ margin-top:23em;
 }
 
 
+/*Listat*/
+#listat{
+   position:absolute;
+   margin-top:100em;
+      }
+
+
+
+#listat ul{
+  
+width: 240px;
+  font-size: 0.9em;
+
+  font-weight:bold;
+  background: rgba(173, 173, 133, 0.7); 
+ border-top: solid 3px white;
+  border-bottom: solid 3px white;
+  
+padding-bottom:1.2em;
+  padding-left:3em;
+
+}
+
+
+
+
+#listat ol{
+   
+ padding-left:1.3em;
+}
 
 

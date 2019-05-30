@@ -62,4 +62,24 @@ setcookie("Pizza", "", time() - 3600);
                     <p><cite>Pizza</cite>  is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients (anchovies, olives, meat, etc.) baked at a high temperature, traditionally in a wood-fired oven. In formal settings, like a restaurant, pizza is eaten with knife and fork, but in casual settings it is cut into wedges to be eaten while held in the hand. Small pizzas are sometimes called pizzettas.
                     The term pizza was first recorded in the 10th century in a Latin manuscript from the Southern Italian town of Gaeta in Lazio, on the border with Campania.Modern pizza was invented in Naples, and the dish and its variants have since become popular in many countries. It has become one of the most popular foods in the world and a common fast food item in Europe and North America, available at pizzerias (restaurants specializing in pizza), restaurants offering Mediterranean cuisine, and via pizza delivery.
 <!--Here we check if the cookie named italian is deleted-->
+                        <?php
+if(!isset($_COOKIE[$cookie_name])) {
+     echo "This wasn't all about this ".$cookie_name;
+} else {
+     echo "This was all about this ".$cookie_name." named ".$_COOKIE[$cookie_name].".";
+}
+?>
+      </p>    
+            </div>
+             <div class="Italian">
+                    <h3>Macaroni</h3>
+
+                    <img src="images\macaroni.jpg" width=400 height=200> 
+                    <p><cite>Macaroni</cite>  is dry pasta shaped like narrow tubes. Made with durum wheat, macaroni is commonly cut in short lengths; curved macaroni may be referred to as elbow macaroni. Some home machines can make macaroni shapes, but like most pasta, macaroni is usually made commercially by large-scale extrusion. The curved shape is created by different speeds of extrusion on opposite sides of the pasta tube as it comes out of the machine.
+                    In North America, the word "macaroni" is often used synonymously with elbow-shaped macaroni, as it is the variety most often used in macaroni and cheese recipes. In Italy, the noun maccheroni refers to straight, tubular, square-ended pasta corta ("short-length pasta"). Maccheroni may also refer to long pasta dishes such as maccheroni alla chitarra and frittata di maccheroni, which are prepared with long pasta like spaghetti.
+<!--Here we check if the cookie named italian is deleted-->
+
+                    
+                    </p>    
+            </div>
 

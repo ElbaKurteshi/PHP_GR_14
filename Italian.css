@@ -87,6 +87,17 @@ padding-top:0em;
    
  margin-bottom: 70em;
 }
+/*Artikujt*/
+.Italian img{
+    width:400px;
+    height: 200px;
+    margin: 2em;
+    float:left;
+	border: solid 1px black;
+	border-radius: 15px;
+
+}
+
 
 
 	

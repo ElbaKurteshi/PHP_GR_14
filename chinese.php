@@ -149,7 +149,7 @@ echo "<h4>&bullet; 5 Delicious Chinese Street Food  $variabla</h4>" . $foods[0] 
 <?php    
 $i = 5; 
 DO { 
-  print "<h4>&bullet; " . $i . " 5 Disgusting Chinese Foods </h4><br>"; 
+  print "<h4>&bullet; " . $i . "  Disgusting Chinese Foods </h4><br>"; 
   $i--; 
 } WHILE ($i > 8);
 

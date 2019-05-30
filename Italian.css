@@ -76,6 +76,17 @@ color: black;
 margin: 0.5em 0.5em;
 	
 }
+header li a:hover{
+   
+ color:white;
+}
+
+header form{
+    
+padding-top:0em;
+   
+ margin-bottom: 70em;
+}
 
 
 	

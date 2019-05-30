@@ -324,3 +324,65 @@ margin-left:1em;
 	margin-bottom:200px;
 }
 
+#followus h3{
+    float:left;
+    color: white;
+    font-weight:bold;
+    padding-top:2em;
+	padding-left:3em;
+	padding-right:3em;
+	padding-bottom:2em;
+    text-transform: uppercase;	
+}
+
+
+#followus section ul{
+    margin-top:0em;
+}
+
+#followus section ul li{
+    float: left;
+    display:inline;
+    padding:0.8em;
+}
+
+
+#followus section ul li img{
+    width: 31px;
+    height: 31px;
+}
+
+
+/*Transformation*/
+#box {
+  background: #2db34a;
+  line-height: 150px;
+  text-align: center;
+  border-radius: 10px;
+  width: 270px;
+  height:140px;
+  position: absolute;
+  margin-top:173em;
+  left:3px;
+  
+}
+.spin {
+  cursor: pointer;
+  transform-style: preserve-3d;
+  
+}
+.spin:hover {
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+ 100% {
+    transform: rotateY(360deg);
+  }
+  }
+
+h5 {
+	  color: #fff;
+}
+
+

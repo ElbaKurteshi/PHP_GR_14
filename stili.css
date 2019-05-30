@@ -212,5 +212,44 @@ aside h2{
 text-align: center;
   border:solid 1px #669999;
 }
+#Sondazhi{
+    background-color: rgba(0, 0, 0, 0.7);
+    
+width: 250px;
+    border: solid 2px black;
+    padding-bottom:3em;
+
+	padding-top: 4em;
+	
+text-align: left;
+	color: white;
+	position:absolute;
+	
+margin-top:23em;
+	}
+	
+.poll h4{
+    font-size: 1em;
+    padding-bottom: 1em;
+	margin: 0;
+	}
+	
+.poll form{
+    background-color:rgba(255, 255, 255, 0.5); 
+    padding: 0.7em 0 0.7em 0.7em;
+	color: black;
+	}
+
+/*Local Storage*/
+#localdata {
+  width: 251px;
+  height:105px;
+  background: rgba(163, 163, 117, 0.7);
+  position:absolute;
+  margin-top:72em;
+  border:solid 1px #5c5c3d;
+}
+
+
 
 

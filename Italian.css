@@ -97,6 +97,18 @@ padding-top:0em;
 	border-radius: 15px;
 
 }
+.Italian{ 
+    float:left;
+    width: 800px;
+    margin-top: 5em;
+    margin-bottom: 4em;
+	margin-right: 6em;
+    font-size: 16px;
+    background-color:rgba(223, 191, 159, 0.7);
+    overflow: auto;
+	margin: 3em;
+	border-radius: 15px;
+	}
 
 
 

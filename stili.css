@@ -153,4 +153,64 @@ margin-top: 1em;
 	}
 
 
+section
+{
+    padding-left:0.8em;
+    padding-right:1em;
+}
+
+
+#other{
+  
+  float:left;
+  padding:2em ;
+  background-color:rgba(182, 193, 155, 0.8);
+  margin-left: 3em;
+  color: white;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+
+/*Aside*/	
+aside{
+     
+   position: absolute;
+        right:0;
+        top: 15em;
+        width: 18em;
+        margin-top: 4em;
+        margin-left: 0.5em;   
+    }
+
+aside h2{
+    color:black;
+   
+ position:absolute;
+	margin-top:13.5em;
+	}
+	
+
+
+/*Ora*/	
+#all {
+  width: 251px;
+  height:75px;
+ 
+ font-size: 1em;
+  font-weight:bold;
+ 
+ background: rgba(140, 217, 140, 0.7);
+ 
+ position:relative;
+  margin-top:3em;
+  margin-bottom:200px;
+ 
+ padding-top:2em;
+  padding-bottom:0.9em;
+  
+text-align: center;
+  border:solid 1px #669999;
+}
+
 

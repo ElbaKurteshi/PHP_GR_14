@@ -22,7 +22,16 @@ margin: 0;
   }
 
 }
-
+header nav{
+  
+  display: inline;
+   
+ position: relative;
+   
+ float: left;
+   
+ margin: 0.7em 5em 3em 3em;
+}
 
 	
 

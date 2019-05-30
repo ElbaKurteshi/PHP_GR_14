@@ -82,4 +82,12 @@ if(!isset($_COOKIE[$cookie_name])) {
                     
                     </p>    
             </div>
+            <div class="Italian">
+                   <h3>Spaghetti</h3>
+                    <img src="images\spaghetti.jpg" width=400 height=200> 
+                    <p> <cite>Spaghetti </cite> is a long, thin, solid, cylindrical pasta.Spaghettoni is a thicker form of spaghetti, while capellini is a very thin spaghetti. It is a staple food of traditional Italian cuisine. Like other pasta, spaghetti is made of milled wheat and water and sometimes enriched with vitamins and minerals. Authentic Italian spaghetti is made from durum wheat semolina, but elsewhere it may be made with other kinds of flour. Typically the pasta is white because refined flour is used, but whole wheat flour may be added.
+                    Originally, spaghetti was notably long, but shorter lengths gained in popularity during the latter half of the 20th century and now it is most commonly available in 25–30 cm (10–12 in) lengths. A variety of pasta dishes are based on it, and it is frequently served with tomato sauce or meat or vegetables.
+
+           </p>             
+                    </div>
 

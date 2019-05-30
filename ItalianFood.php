@@ -90,4 +90,20 @@ if(!isset($_COOKIE[$cookie_name])) {
 
            </p>             
                     </div>
+            
+            <div class="Italian">
+<!--Check if there are any cookies enabled in this page-->
+<?php
+if(count($_COOKIE) > 0) {
+    echo "Cookies are enabled in this page.";
+} else {
+    echo "Cookies are disabled in this page.";
+}
+?>
+</div>
+          
+</article>
+</body>
+</html>
+
 

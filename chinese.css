@@ -17,4 +17,18 @@ header
    
 margin: 0;
   }
+
+header nav{
+   display: inline;
+  position: relative;
+  float: left;
+  margin: 0.7em 5em 3em 3em;
+}
+
+h2 {
+	padding-top:0.5em;
+	padding-left:2em;
+ color: black; 
+  text-align: left;
+}
 	

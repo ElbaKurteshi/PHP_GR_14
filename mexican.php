@@ -46,3 +46,9 @@ echo preg_replace($patterns, $replacements, $string);
 ?>
                     </p>    
                     </div>
+		
+		<div class="Insects">					
+		  <h3>Enchiladas</h3>
+                    <img src="images\enchiladas.jpg" width=400 height=200> 
+                    <p> Enchiladas date back to Mayan times, when people in the Valley of Mexico would eat corn tortillas wrapped around small fish. These days both corn and flour tortillas are used and are filled with meat, cheese, seafood, beans, vegetables or all of the above. The stuffed tortillas are then covered in a chilli sauce, making for a perfect Mexican breakfast.An enchilada is a corn tortilla rolled around a filling and covered with a chili pepper sauce. Enchiladas can be filled with a variety of ingredients, including various meats, cheese, beans, potatoes, vegetables or combinations. Originating in Mexico, enchiladas are a popular dish throughout Mexico and the American Southwest.Enchiladas originated in Mexico, where the practice of rolling tortillas around other food dates back at least to Mayan times.The people living in the lake region of the Valley of Mexico traditionally ate corn tortillas folded or rolled around small fish.
+

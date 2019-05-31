@@ -52,4 +52,6 @@ if ($q !== "") {
     }
 }
 
-
+// del "no suggestion" nese nuk ka hint ose paraqet vlerat korrekte nga array
+echo $hint === "" ? "no suggestion" : $hint;
+?>

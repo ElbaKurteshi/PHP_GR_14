@@ -65,11 +65,11 @@ function showHint(str) {
     }
 }
 </script>
-	<p style="color:beige;"><b>Start typing a name:</b> </p>
-<form style="color:yellow;"> 
+	<p style="color:black;"><b>Start typing a name:</b> </p>
+<form style="color:black;"> 
 First name: <input type="text" onkeyup="showHint(this.value)">
 </form>
-    <p style ="color:yellow;">Suggestions: <span id="txtHint"></span></p>
+    <p style ="color:black;">Suggestions: <span id="txtHint"></span></p>
     
 </body>
 </html>

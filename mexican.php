@@ -78,3 +78,9 @@ class Dish {
                     <p>Guacamole is undoubtedly one of Mexico’s most popular dishes, but few people know that this traditional sauce dates back to the time of the Aztecs. Made from mashed-up avocadoes, onions, tomatoes, lemon juice and chilli peppers (and sometimes a clove or two of garlic), guacamole is often eaten with tortilla chips or used as a side dish.Guacamole dip is traditionally made by mashing ripe avocados and sea salt with a molcajete y tejolote (mortar and pestle).Recipes call for lime juice, cilantro (UK English: coriander), jalapeño, onion, and salt. Some non-traditional recipes call for sour cream, tomatoes, basil, or even peas.Guacamole has increased avocado sales in the U.S., especially on Super Bowl Sunday and Cinco de Mayo.The rising consumption of guacamole is most likely due to the U.S. government lifting a ban on avocado imports in the 1990s and the growth of the U.S. Latino population.
                     </p>    
                     </div>
+		
+		</article>
+
+				
+</body>
+</html>

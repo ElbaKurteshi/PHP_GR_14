@@ -76,4 +76,14 @@ tr {
     background-color:rgba(242, 242, 242, 0.7);	
 	}
 
+p
+{
+font-size: 15px;
+}
+
+.map{
+	margin: 5em 26em 3em 2em;
+	font-size: 20px;
+	}
+
 

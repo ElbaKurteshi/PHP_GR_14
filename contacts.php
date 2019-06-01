@@ -38,10 +38,6 @@ $(document).ready(function(){
 </nav>
 </header>
 		
-		<b><p>If you want to read more click here: <a href="#aboutus">About Us</a></p></b>
-
-
-		
 	<hr>
 <script type="text/javascript">
 
@@ -52,7 +48,10 @@ function multipleparameters (first, second) {
 multipleparameters("E-mails", "us");
 
 </script>
-		<table style="width:50%; height: 10%">
+<b><p>If you want to read more click here: <a href="#aboutus">About Us</a></p></b>
+		
+		
+<table style="width:50%; height: 10%">
 
   <tr>
     <th> Name of admins </th>
@@ -78,16 +77,18 @@ multipleparameters("E-mails", "us");
   
 </table>	
 		
-	<hr>
-		<figure>
+<hr>
+		
+<figure>
 <div class="map">
 <img src="images\map.png" title="map" alt="map photo" width=300 height=300>
 <figcaption>
 <pre><strong> Note:</strong>This is our location.</pre>
 </figcaption>
-<figure>
+	</div>
+</figure>
 
-		<div class="info">
+<div class="info">
 <hr>
 <h3 id="aboutus">About Us</h3>
 
@@ -98,13 +99,14 @@ $members = array("FIEK"=>"4", "FIM"=>"7", "FNA"=>"10");
 echo "We are " .$members['FIEK'] . " students of computer engineering and we worked together on building this website. All the food lovers are welcomed in our website . We worked a lot in this project , and we tried our best' .";
 ?>
 </p>
-	<mark> Thank You </mark>
-<br/>
+	
+<mark> Thank You </mark>
+<br>
 <button id="hide">Hide</button>
 			
-	<button id="show">Show</button>
+<button id="show">Show</button>
 </div>
-</nav>
+
 </body>
 </html>		
 			

@@ -86,4 +86,23 @@ font-size: 15px;
 	font-size: 20px;
 	}
 
+.info{
+	float:left;
+    width: 1100px;
+    margin: 3em;
+    font-size: 12px;
+	background-color:rgba(255, 255, 255, 0.5);
+    overflow: auto;	
+	}
 
+.info h3{
+	font-size: 20px;
+	color:black;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+.info p{
+	font-size: 16px;
+	color:black;
+	 background-color:rgba(255,255,192, 0.7);
+}

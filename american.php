@@ -27,7 +27,7 @@
 
 <body>
 <div>
-			        <h4>Facts about american eating habits!</h4>
+	<i> <h4>Facts about american eating habits!</h4> </i>
                     <p> Let's see an array about american foods.<br>
 					<?php
 $american = "American foods are delicious";

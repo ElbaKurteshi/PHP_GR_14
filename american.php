@@ -31,7 +31,7 @@
                     <p> Let's see an array about american foods.<br>
 					<?php
 $american = "American foods are delicious";
-print_r (explode(" ",$str));
+print_r (explode(" ",$american));
 ?> <br>
 Now let's take that array and form it in a full sentence.<br>
  <?php

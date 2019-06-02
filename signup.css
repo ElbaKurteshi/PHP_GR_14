@@ -67,5 +67,27 @@ header form{
 padding-top:0em;
 margin-bottom: 70em;
 }
+ #signup {
+                position: relative;
+                bottom: -60px;
+               background:  rgba(255, 0, 0, 0.4);
+                border-radius: 5px; 
+                width: 400px;
+                padding: 20px;
+                border: 1px solid black;
+				border-top: 3px solid black;
+                margin: 0 auto;
+            }
+
+            #signup h1 {
+
+                font-size: 17px;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 25px;
+                text-align: center;
+                color:black;
+
+            }
 
 	

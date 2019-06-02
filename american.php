@@ -34,8 +34,9 @@ $american = "American foods are delicious";
 print_r (explode(" ",$american));
 ?> <br> <br>
  <b>Now let's take that array and form it in a full sentence.</b><br>
+			    
  <?php
-			    $arr = array('American','foods','are','delicious.');
+$americanfood = array('American','foods','are','delicious.');
 echo implode(" ",$arr);
 ?> <br>
 <?php

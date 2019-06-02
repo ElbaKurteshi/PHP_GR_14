@@ -76,15 +76,15 @@
                     <p>
 <!--Qasje ne Variabla me GLOBAL arrays-->
 <?php
-$x = 40;
-$y = 20; 
+$x = 7;
+$y = 6; 
 
 function addition() {
     $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
 }
 
 addition();
-echo 'Noodle soup refers to a variety of soups with noodles and other ingredients served in a light broth. Noodle soup is common dish across East and Southeast Asia. Various types of noodles are used, such as rice noodles, wheat noodles and egg noodles.While we do think of pasta as a culturally Italian food, it is likely the descendent of ancient Asian noodles. A common belief about pasta is that it was brought to Italy from China by Marco Polo during the 13th century.' ;
+echo 'Noodle soup refers to a variety of soups with noodles and other ingredients served in a light broth. Noodle soup is common dish across East and Southeast Asia. Various types of noodles are used, such as rice noodles, wheat noodles and egg noodles.While we do think of pasta as a culturally Italian food, it is likely the descendent of ancient Asian noodles. A common belief about pasta is that it was brought to Italy from China by Marco Polo during the '.$z.'th century.' ;
 ?>
                     </p>    
                     </div>

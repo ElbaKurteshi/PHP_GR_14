@@ -1,5 +1,5 @@
 <?php
-// Array with names
+// Array me emrat per suggestion
 $a[] = "Alba";
 $a[] = "Blinera";
 $a[] = "Benxhellushja";

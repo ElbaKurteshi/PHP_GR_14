@@ -43,7 +43,7 @@ echo implode(" ",$americanfood);
 <?php
 echo "There's a food named Scrapple aka Pork Mush. But since the name is quite weird and not easily stuck in mind 
 you can also refer to it as ";
-$str = "Scrapple aka Pork Mush.";
+$remove = "Scrapple aka Pork Mush.";
 echo trim($str,"Scrapple aka Pork!");
 ?>
 <br>

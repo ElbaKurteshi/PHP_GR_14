@@ -48,4 +48,20 @@
 
 			<p>E-mail</br>
             <input type="email" placeholder="E-mail"  name="email" required="required">
+<p>Password</br>
+			<input type="password" placeholder="Password"  name="password" required="required">
+
+			<p>Confirm Password</br>
+			<input type="password" placeholder="Confirm Password" name="confirmpassword" required="required">
+			
+			
+
+			<p><small><a href="login.php">Log In</a> here!</small></p>
+					
+            <br><button type="submit" value="submit" onclick="notEmptyandConfirm()">Sign Up</button><br>
+		
+</form>			
+</div>
+</body>
+</html>
 			

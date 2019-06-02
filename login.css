@@ -71,18 +71,6 @@ margin-bottom: 70em;
 
            
 
-            #login h1 {
-
-                font-size: 17px;
-                text-transform: uppercase;
-                margin-top: 0;
-                margin-bottom: 25px;
-                text-align: center;
-                color: #334d00;
-
-            }
-
-
             #login input:active, 
 			#login input:focus 
 			{

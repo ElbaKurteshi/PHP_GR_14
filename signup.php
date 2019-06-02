@@ -28,3 +28,24 @@
             
 </nav>
 </header>
+ <hr>
+
+
+
+<div id="signup">
+
+	<form name="signup" action="insert.php" method="POST">
+            <h1><u>Sign Up</u></h1>
+
+			<p>First Name</br>
+            <input type="text" placeholder="First Name"  name="firstname" required="required">
+
+			<p>Last Name</br>
+            <input type="text" placeholder="Last Name"  name="lastname" required="required">
+
+            <p>Username</br>
+            <input type="text" placeholder="Username"  name="username" required="required">
+
+			<p>E-mail</br>
+            <input type="email" placeholder="E-mail"  name="email" required="required">
+			

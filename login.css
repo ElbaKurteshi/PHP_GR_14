@@ -69,17 +69,7 @@ margin-bottom: 70em;
 }
 
 
-            #login {
-                position: relative;
-                bottom: -60px;
-                background:rgba(133, 224, 133, 0.8);
-                border-radius: 5px; 
-                width: 400px;
-                padding: 20px;
-                border: 1px solid #331a00;
-				border-top: 3px solid #331a00;
-                margin: 0 auto;
-            }
+           
 
             #login h1 {
 

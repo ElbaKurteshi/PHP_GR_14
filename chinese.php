@@ -125,7 +125,7 @@ In the bakeries of Chinatown, San Francisco, it is commonly referred to as "spon
 
 echo "<h4>&bullet; Top 5 Chinese Dishes You Cannot Miss</h4><br>";
 $foods = array("– Peking Duck 北京烤鸭", "– Hot Pot 火锅", "– Hong Shao Rou 红烧肉", "– Dumplings 饺子","– Biang Biang Mian 油泼扯面");
-rsort($coolest); //nese kodojme vetem sort atehere behet sortimi sipas radhes alfabetike
+rsort($foods); //nese kodojme vetem sort atehere behet sortimi sipas radhes alfabetike
 
 $clength = count($coolest);
 for($x = 0; $x < $clength; $x++) {

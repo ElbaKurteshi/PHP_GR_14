@@ -3,8 +3,6 @@
 session_start();
 ?>
 
-<!DOCTYPE html>
-
 <html manifest="manifest.appcache">
     <head>
         <title>Foods Blog</title>

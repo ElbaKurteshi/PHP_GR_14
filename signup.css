@@ -25,4 +25,20 @@ header nav{
    float: left;
 margin: 0.7em 5em 3em 3em;
 }
+
+
+h2 {
+	padding-top:0.5em;
+    padding-left:2em;
+   color: black;
+   text-align: left;
+}
+
+
+header ul{
+    list-style-type: none;
+     margin:0em 0 ;
+    padding:3em 0 0 0.2em;
+}
+
 	

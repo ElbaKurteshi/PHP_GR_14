@@ -1,3 +1,4 @@
+<!--Create a session-->
 <?php
 session_start();
 ?>
@@ -6,33 +7,38 @@ session_start();
 
 <html manifest="manifest.appcache">
     <head>
-       <title>Foods Blog</title>
+        <title>Foods Blog</title>
         <meta charset="utf-8">
 		
 		<link rel="stylesheet" href="stili.css">
 		<style type="text/css">
-.ushqimet{
+			
+			
+			
+			
+    .ushqimet{
 	font-size:1em;
 	font:bold;
 	margin-top: 71em;
-        margin-left: -12px;
+    margin-left: -12px;
 	float:left;
-        width: 280px;
-        background-color:rgba(224, 224, 209, 0.7);
-       border: 3px solid #f5f5f0;
+    width: 280px;
+    background-color:rgba(224, 224, 209, 0.7);
+    border: 3px solid #f5f5f0;
 	border-radius: 8px;	
 			}
-.twitter{
+
+	.twitter{
 	font-size:1em;
 	font:bold;
 	margin-top: 23em;
 	float:left;
-       width: 280px;
-       background-color:rgba(224, 224, 209, 0.7);
-      }
+    width: 280px;
+    background-color:rgba(224, 224, 209, 0.7);
+    }
 
 
-.all{
+.all {
   width: 251px;
   height:75px;
   font-size: 1em;
@@ -50,11 +56,13 @@ session_start();
 			
 			
 		</style>
-			
-			
-        </head>
-	<body>
-			 <header>
+    </head>
+	
+	
+
+    <body>
+	
+        <header>
             <a href="index.php"></a>
            <nav> 
 		   <div id="nav">
@@ -63,12 +71,12 @@ session_start();
                     <li><a href="ItalianFood.php">Italian Food</a></li>
                     <li><a href="mexican.php">Mexican Food</a></li>
                     <li><a href="chinese.php">Chinese Food</a></li>
-	            <li><a href="american.php">American Food</a></li>
-	            <li><a href="AlbanianFood.php">Albanian Food</a></li>
-		    <li><a href="contacts.php">Contacts</a></li>
-		    <li><a href="login.php">Log In</a></li>
+					<li><a href="american.php">American Food</a></li>
+				    <li><a href="AlbanianFood.php">Albanian Food</a></li>
+					<li><a href="contacts.php">Contacts</a></li>
+					<li><a href="login.php">Log In</a></li>
                 </ul>
-	     </div>
+				</div>
            </nav>
         </header>
 
@@ -78,7 +86,8 @@ session_start();
             
             <hr>
 				
-			<!--Konstante ne PHP-->
+				
+<!--Konstante ne PHP-->
 <?php
 define("WELCOME", "<h2>Different Countries Foods</h2>");
 
@@ -87,7 +96,7 @@ function myTest() {
 } 
 myTest();
 ?> 
-           </section> 
+            </section> 
 	
     	
             <div class="text">
@@ -97,7 +106,7 @@ myTest();
 $_SESSION["pizza"] = "Vegetarian";
 $_SESSION["pasta"] = "bolognese";
 ?>
-                    <img src="images\italian.jpg" width=400 height=200  
+                    <img src="images\italian.jpg" width=400 height=200  >
                     <span>
                     <p>Italian cuisine is generally characterized by its simplicity, with many dishes having only two to four main ingredients. Italian cooks rely chiefly on the quality of the ingredients rather than on elaborate preparation. Ingredients and dishes vary by region. Many dishes that were once regional have proliferated with variations throughout the country.
 <?php
@@ -131,8 +140,9 @@ session_destroy();
 
                     </p>    
             </div>
-	 
-	 <div class="text">
+		
+
+            <div class="text">
 			    <h3>Mexican Food</h3>
                 <img src="images\mexican.jpg" width=400 height=200
                
@@ -150,12 +160,12 @@ session_destroy();
                </p>      
             </div>
             
-	<div class="text">
+            <div class="text">
 			    <h3>American Food</h3>
                 <img src="images\american.png" width=400 height=200>
                
                 <p>American cuisine reflects the history of the United States, blending the culinary contributions of various groups of people from around the world, including indigenous American Indians, African Americans, Asians, Europeans, Pacific Islanders, and South Americans.When the colonists came to the colonies, they farmed animals for clothing and meat in a similar fashion to what they had done in Europe.
-              </p>
+             </p>
                 
             </div>
             
@@ -171,7 +181,12 @@ session_destroy();
 				humans come into contact with.</p>      
             </div>
 		</article>	
-			 <div id="other">
+			
+
+    
+
+<!--OTHER ANIMALS -->
+            <div id="other">
                 <section>
 				
                 <h2>Other interesting foods of different countries</h2>
@@ -199,7 +214,7 @@ session_destroy();
                     </tr>
                 </table>
 
-			 <!--Perdorimi i funksionit per lexim nga fajllat-->
+                <!--Perdorimi i funksionit per lexim nga fajllat-->
 <?php
 $myfile = fopen("FoodThing.txt", "r") or die("Unable to open file!");
 echo fread($myfile,filesize("FoodThing.txt"));
@@ -231,8 +246,9 @@ fclose($myfile);
 <video src="simpson.mp4" autoplay width="255" height="255" />
 
 </div>		
-
-	 <h2>POLLS</h2> 
+		
+		
+            <h2>POLLS</h2> 
 			
             <div id="Sondazhi">           
             <div class="poll">
@@ -272,8 +288,7 @@ fclose($myfile);
                 </form>
             </div>           
             </div>
-	
-	<br><br>
+<br><br>
 <!--Switch dhe Multidimensional Arrays-->
 <div class="ushqimet">
     <?php
@@ -305,11 +320,16 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
 
 <br>
 </div>
-	<!--Listat-->				
+				
+				
+	
+
+
+<!--Listat-->				
 			<div id="listat">
 
                 <ul>
-                    <h4><li>5 World Famous Foods</h4></li>
+                    <h4><li>5 World Famous Foods</li></h4>
                     <ol>
                         <li>Pizza</li>
                         <li>Burger</li>
@@ -317,7 +337,7 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
                         <li>Tacos</li>
                         <li>Pasta</li>
                     </ol>
-                    </li>
+                    
                     <h4><li>5 Foods To Avoid</li></h4>
                         <ol>
                             <li>French Fries</li>
@@ -326,7 +346,7 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
                             <li>Eggs</li>
                             <li>Meat</li>
                         </ol>
-                    </li>
+                   
                     <h4><li>5 Foods Induce Memory Loss</li></h4>
                         <ol>
                             <li>Pasta</li>
@@ -335,10 +355,12 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
                             <li>White Rice</li>
                             <li>Cakes</li>
                         </ol>
-                    </li>
+                    
                 </ul>
                 </div>
-		
+				
+
+					
 <!--Follow Us-->			
         <div id="followus">
             <section>
@@ -348,7 +370,7 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
                 <li><a href="https://www.twitter.com/" target="_blank"><img src="images\Twitter.png" alt="Twitter"></a></li>
                 <li><a href="https://plus.google.com/" target="_blank"><img src="images\Google+.png" alt="Google Plus"></a></li>
                 <li><a href="https://www.yahoo.com/" target="_blank"><img src="images\Yahoo.png" alt="Yahoo"></a></li>
-				    				
+						
             </ul>
             </section>
         </div>
@@ -373,7 +395,9 @@ switch ($variable) {
 </div>
 </div>
 
-				
-			</body>
+</aside>
+	
+    </body>
+
 
 </html>

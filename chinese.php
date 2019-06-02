@@ -155,7 +155,7 @@ DO {
 
          $numbers[0] = "-  Silkworm Pupa 蚕蛹(cányǒng)";
          $numbers[1] = "-  Pig’s Intestines 肥肠(féicháng)";
-         $numbers[2] = "- 凤爪(fèngzhuǎ) Chicken Feet";
+         $numbers[2] = "-  Chicken Feet 凤爪(fèngzhuǎ)";
          $numbers[3] = "- Snake Gallbladder";
          $numbers[4] = "- Rabbit Head";
          

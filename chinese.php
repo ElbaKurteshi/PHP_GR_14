@@ -127,7 +127,7 @@ echo "<h4>&bullet; Top 5 Chinese Dishes You Cannot Miss</h4><br>";
 $foods = array("– Peking Duck 北京烤鸭", "– Hot Pot 火锅", "– Hong Shao Rou 红烧肉", "– Dumplings 饺子","– Biang Biang Mian 油泼扯面");
 rsort($foods); //nese kodojme vetem sort atehere behet sortimi sipas radhes alfabetike
 
-$clength = count($coolest);
+$clength = count($foods);
 for($x = 0; $x < $clength; $x++) {
     echo $coolest[$x];
     echo "<br>";

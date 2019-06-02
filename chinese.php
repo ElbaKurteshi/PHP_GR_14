@@ -129,7 +129,7 @@ rsort($foods); //nese kodojme vetem sort atehere behet sortimi sipas radhes alfa
 
 $clength = count($foods);
 for($x = 0; $x < $clength; $x++) {
-    echo $coolest[$x];
+    echo $foods[$x];
     echo "<br>";
 }
 ?>

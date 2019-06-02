@@ -72,6 +72,7 @@ if(isset($_SESSION['log']))
 	<form action="gen.php" method="POST">
 	<h3>Your guess must be a number,choose it below:</h3> <input type="number" name="guess"><br/>
 		<input type="submit" name="submit" value="Guess">
+		<b><p> Do you want to log out? <a href="login.php">Log Out</a> </p></b>
 		
 	
 	</form>

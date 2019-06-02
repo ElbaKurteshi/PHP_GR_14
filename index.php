@@ -136,8 +136,8 @@ session_unset();
 session_destroy();
 ?>
 
-                    </p>    
-            </div>
+            </p>    
+ </div>
 		
 
             <div class="text">

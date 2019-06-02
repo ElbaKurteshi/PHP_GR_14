@@ -153,7 +153,7 @@ DO {
   $i--; 
 } WHILE ($i > 8);
 
-         $numbers[0] = "- 蚕蛹(cányǒng) Silkworm Pupa";
+         $numbers[0] = "-  Silkworm Pupa 蚕蛹(cányǒng)";
          $numbers[1] = "- 肥肠(féicháng) Pig’s Intestines";
          $numbers[2] = "- 凤爪(fèngzhuǎ) Chicken Feet";
          $numbers[3] = "- Snake Gallbladder";

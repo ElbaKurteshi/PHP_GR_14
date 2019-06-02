@@ -320,10 +320,7 @@ echo "<h6>The number of  orders on this page is already " . $order . ". You can 
 </div>
 				
 				
-	
-
-
-<!--Listat-->				
+				
 			<div id="listat">
 
                 <ul>

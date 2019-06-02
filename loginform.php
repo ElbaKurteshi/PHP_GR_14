@@ -15,8 +15,7 @@ $result=mysqli_query($con,"SELECT * FROM `login_info` WHERE `username`='$usernam
 $count=mysqli_num_rows($result);
 if($count==1)
 {
-	echo "Login success";
-	$_SESSION['log']=1;
+	
 	header("location:game.php");
 
 }

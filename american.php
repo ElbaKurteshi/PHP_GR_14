@@ -37,8 +37,9 @@ print_r (explode(" ",$american));
 			    
  <?php
 $americanfood = array('American','foods','are','delicious.');
-echo implode(" ",$arr);
+echo implode(" ",$americanfood);
 ?> <br>
+			    
 <?php
 echo "There's a food named Scrapple aka Pork Mush. But since the name is quite weird and not easily stuck in mind 
 you can also refer to it as ";

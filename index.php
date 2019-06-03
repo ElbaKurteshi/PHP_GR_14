@@ -172,18 +172,16 @@ session_destroy();
                 <img src="images\albanian.jpg" width=400 height=200>
                 
                 <p>
-                The cockroach, also known as the roach, is found worldwide in every environment and every habitat with the 
-				exception of water. The cockroach is one of the most commonly known pests to humans of the insects world but
-				plays a vital role in the ecosystem ingesting decomposing materials.There are thought to be around 4,000 known
-				species of cockroach in existence but only about 30 of the different species of cockroach are the ones that 
-				humans come into contact with.</p>      
+                The cuisine of the central region is threefold of rural, mountainous and coastal. The central region is the flattest and rich in vegetation and biodiversity as well as culinary specialties. It has Mediterranean characteristics due to its proximity to the sea, which is rich in fish. Dishes here include several meat specialties and desserts of all kinds.
+
+In the south, the cuisine is composed of two components: the rural products of the field including dairy products, citrus fruits and olive oil, and coastal products, i.e. seafood. Those regions are particularly conducive to raising animals, as pastures and feed resources are abundant.
+
+Besides garlic, onions are arguably the country's most widely used ingredient. Albania is ranked second in the world in terms of onion consumption per capita</p>      
             </div>
 		</article>	
 			
 
-    
-
-<!--OTHER ANIMALS -->
+   
             <div id="other">
                 <section>
 				
